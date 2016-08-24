@@ -20,6 +20,7 @@
 	</div>
 	<%@ include file="/WEB-INF/jsp/includes/messageaddmodal.jsp"%>
 	<%@ include file="/WEB-INF/jsp/includes/messagelist.jsp"%>
+	<!-- %@ include file="/WEB-INF/jsp/includes/bottomblock.jsp"% -->
 	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
 </body>

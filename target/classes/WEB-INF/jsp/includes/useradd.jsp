@@ -24,14 +24,6 @@
 
 					<div class="form-group">
 						<div class="col-sm-12">
-							<label for="mail">E-mail</label>
-								<form:input path="email" type="text" class="form-control"
-									placeholder="E-mail" />
-						</div>
-					</div>
-
-					<div class="form-group">
-						<div class="col-sm-12">
 							<label for="name">Name</label>
 							<form:input path="name" type="text" class="form-control"
 								placeholder="Name" />
@@ -41,8 +33,7 @@
 					<div class="form-group">
 						<div class="col-sm-12">
 							<label for="password">Password</label>
-							<form:input path="password" type="text" class="form-control"
-								placeholder="Password" />
+							<form:input path="password" type="password" class="form-control" placeholder="Password" />
 						</div>
 					</div>
 
