@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/jsp/includes/messagelist.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/jsp/includes/plan.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/includes/userlist.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/student.jsp=UTF-8

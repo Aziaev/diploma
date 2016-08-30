@@ -11,17 +11,21 @@
 
 <%@ include file="/WEB-INF/jsp/includes/header.jsp"%>
 
-<title>STUDENT MANAGEMENT PAGE</title>
+<title>Messages</title>
 
 <body>
-	<%@ include file="/WEB-INF/jsp/includes/jumbotron.jsp"%>
 	<div class="container">
-		<h1>MESSAFEGEGEGEGE</h1>
+		<div class="registerdiv">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<%@ include file="/WEB-INF/jsp/includes/messagelist.jsp"%>
+				</div>
+			</div>
+			<hr>
+			<%@ include file="/WEB-INF/jsp/includes/bottomblock.jsp"%>
+			<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
+		</div>
 	</div>
-	<%@ include file="/WEB-INF/jsp/includes/messageaddmodal.jsp"%>
-	<%@ include file="/WEB-INF/jsp/includes/messagelist.jsp"%>
-	<!-- %@ include file="/WEB-INF/jsp/includes/bottomblock.jsp"% -->
-	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
 </body>
 </html>

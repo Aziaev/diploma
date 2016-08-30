@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC
     "-//Hibernate/Hibernate Configuration DTD//EN"
-    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
-    
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
 <hibernate-configuration>
-    <session-factory>        
-        <mapping class="com.joseph.model.User" />
-        <mapping class="com.joseph.model.Message" />
-    </session-factory>       
+	<session-factory>
+		<mapping class="com.joseph.model.Message" />
+		<mapping class="com.joseph.model.Student" />
+	</session-factory>
 </hibernate-configuration>

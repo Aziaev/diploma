@@ -8,10 +8,10 @@
 	<div class="col-sm-offset-4 col-sm-4">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
-				<h4>Sign up and never be sad again</h4>
+				<h4>Sign in and save the Planet</h4>
 			</div>
 			<div class="panel-body">
-				<form:form action="user.do" method="POST" commandName="student"
+				<form:form action="login.do" method="POST" commandName="student"
 					class="form-horizontal">
 
 					<div class="form-group">
@@ -32,7 +32,12 @@
 
 					<div class="form-group">
 						<div class="col-sm-12">
-							<button type="submit"  name="action" value="Add" class="btn btn-default btn-lg btn-block">Sign up!</button>
+							<button type="submit"  name="action" value="identify" class="btn btn-default btn-lg btn-block">Sign in</button>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-12 text-center">
+							<a href="/CRUDWebAppMavenized/signup" class="navbar-link">Not registered yet? Sign up</a>
 						</div>
 					</div>
 				</form:form>

@@ -42,6 +42,6 @@ public class MessageController {
 		}
 		map.put("message", messageResult);
 		map.put("messageList", messageService.getAllMessage());
-		return "message";
+		return "redirect:/message";
 	}
 }

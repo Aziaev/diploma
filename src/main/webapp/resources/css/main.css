@@ -1,3 +1,40 @@
 .checkbox-inline label, .radio-inline label{
   font-weight: normal;
 }
+
+.simplediv {
+	margin-top: 40px;
+}
+
+.registerdiv {
+	margin-top: 80px;
+}
+
+.jumbodiv {
+	margin-top: 300px;
+}
+
+.jumbotron {
+    background-image: url(../img/background.png);
+    background-position: 0% 25%; 
+   	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	height: 900px;
+    color: white;
+}
+
+.jumbotron h1 {
+    color: #eee !important;
+}
+
+.jumbotron p {
+    color: #eee !important;
+}
+
+.margin10 {
+	margin: 10px;
+}

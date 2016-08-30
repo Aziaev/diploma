@@ -21,8 +21,8 @@
 		<!-- %@ include file="/WEB-INF/jsp/includes/plan.jsp"% -->
 	</div>
 
-	<!--%@ include file="/WEB-INF/jsp/includes/bottomblock.jsp"%-->
-	<!--%@ include file="/WEB-INF/jsp/includes/footer.jsp"%-->
+	<%@ include file="/WEB-INF/jsp/includes/bottomblock.jsp"%>
+	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
 </body>
 </html>

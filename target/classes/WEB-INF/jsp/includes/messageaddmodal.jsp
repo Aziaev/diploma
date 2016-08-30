@@ -23,7 +23,7 @@
 		<div class="col-sm-4">
 			<label for="messageText">Message body</label>
 			<form:input path="messageText" type="text" class="form-control"
-				placeholder="Message body" rows="3"/>
+				placeholder="Message body" />
 		</div>
 	</div>
 	<div class="form-group">

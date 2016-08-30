@@ -6,7 +6,7 @@
 
 <form:form action="message.do" method="POST" commandName="message" class="form-horizontal">
 	<div class="form-group">
-		<div class="col-sm-6">
+		<div class="col-sm-4">
 			<label for="senderId">From</label>
 			<form:input path="senderId" type="text" class="form-control"
 				placeholder="Sender" />

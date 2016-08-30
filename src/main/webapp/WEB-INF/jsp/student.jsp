@@ -11,10 +11,22 @@
 
 <%@ include file="/WEB-INF/jsp/includes/header.jsp"%>
 
-<title>STUDENT MANAGEMENT PAGE</title>
+<title>All users | Happy messenger</title>
 
 <body>
-	<%@ include file="/WEB-INF/jsp/includes/jumbotron.jsp"%>
+	<!-- %@ include file="/WEB-INF/jsp/includes/jumbotron.jsp"% -->
+
+	<div class="container">
+		<div class="registerdiv">
+			<div class="row text-center">
+				<h1 class="text-center">Choose your companion</h1>
+				<div class="col-md-4 col-md-offset-4">
+					<%@ include file="/WEB-INF/jsp/includes/userlist.jsp"%>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
 	<%@ include file="/WEB-INF/jsp/includes/bottomblock.jsp"%>
 	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 

@@ -11,14 +11,14 @@
 
 <%@ include file="/WEB-INF/jsp/includes/header.jsp"%>
 
-<title>Sign up | Happy messenger</title>
+<title>Sign in | Happy messenger</title>
 
 <body>
 	<!-- %@ include file="/WEB-INF/jsp/includes/jumbotron.jsp"% -->
 
 	<div class="container">
 		<div class="registerdiv">
-			<%@ include file="/WEB-INF/jsp/includes/useradd.jsp"%>
+			<%@ include file="/WEB-INF/jsp/includes/loginform.jsp"%>
 		</div>
 	</div>
 	<hr>

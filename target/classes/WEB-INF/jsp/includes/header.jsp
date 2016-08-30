@@ -12,10 +12,20 @@
 <link href="<c:url value="/resources/css/bootstrap.min.css" />"
 	rel="stylesheet">
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="/CRUDWebAppMavenized/main">Home</a>
+		<a class="navbar-brand" href="/CRUDWebAppMavenized/">Home</a>
+	</div>
+
+	<!-- If nameCookie is empty: button "sign in", Signed in as "**" + button "sign out" -->
+
+	<div class="navbar-right">
+		<p class="navbar-text">
+			Signed in as <a href="#" class="navbar-link">${student}</a>
+		</p>
+		<a href="/CRUDWebAppMavenized/login"><button type="button"
+				class="btn btn-default navbar-btn navbar-right">Sign in</button></a>
 	</div>
 </div>
 </nav>
